@@ -1,8 +1,6 @@
 # Relief_Tracker
 This repository is for the code I have set up to enable the @Relief_Tracker.  It includes
 
-Twitter Account: https://twitter.com/Relief_Tracker
-
 5 Data Tables
 <br>*1 Table for disaster information (name of event, date of event, tweet syntax columns, and hashtags) 
 <br>2 Tables for common and uncommon charity tweet information
@@ -12,3 +10,6 @@ Twitter Account: https://twitter.com/Relief_Tracker
 <br>Commented out for easy of understanding!
 
 To make this code run daily, I have setup crontab querries to run during certain parts of the day.
+
+Check out the current iteration here! https://twitter.com/Relief_Tracker
+
