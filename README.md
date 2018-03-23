@@ -14,11 +14,11 @@ This Github Repo stores the code and data behind ‘Relief_Tracker’, a Twitter
 #### - The Kadovar Island Volcano
 #### - The On-going Mongolia Dzud
 
-Code: 
+## Code: 
 There is one R code that pulls in, creates, and send out the Tweets for the account, which is “HandCurated_Tweets_Code_Git_Upload.R”. 
 It is run once a day and sends Tweets out in 60 second increments.
 
-Data:
+## Data:
 There are five csv tables which encompass the data to include in the Tweet:
 - Metadata_Chart (CSV): this table includes the high level data about each disaster (Date of disaster, is it on-going, what hashtag should be used)
 - Started_Type (CSV): this table gives the correct preface when referencing the disaster start date.  If it’s an ongoing disaster, this allows the tweet to say that the disaster “Started” on it’s origin data, where as if it were a singular event, it will use the phrase “Occurred”.
