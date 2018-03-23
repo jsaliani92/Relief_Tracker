@@ -1,18 +1,18 @@
 # Relief_Tracker
 This Github Repo stores the code and data behind ‘Relief_Tracker’, a Twitter account that Tweets out daily reminders about disasters affecting communities across the world. As of writing this, there are 15 disasters that the account tweets out every day.
 
-Hurricane Harvey 
-Hurricane Irma
-Hurricane Maria
-The Thomas Wildfire
-The Sierra Leone Mudslides
-The Mexico City Earthquake
-The Iran/Iraq Earthquake
-The Flint Water Crisis
-The Columbia Floods
-The Philippines Mudslides
-The Kadovar Island Volcano
-The On-going Mongolia Dzud
+# Hurricane Harvey 
+# Hurricane Irma
+# Hurricane Maria
+# The Thomas Wildfire
+# The Sierra Leone Mudslides
+# The Mexico City Earthquake
+# The Iran/Iraq Earthquake
+# The Flint Water Crisis
+# The Columbia Floods
+# The Philippines Mudslides
+# The Kadovar Island Volcano
+# The On-going Mongolia Dzud
 
 Code: 
 There is one R code that pulls in, creates, and send out the Tweets for the account, which is “HandCurated_Tweets_Code_Git_Upload.R”. 
