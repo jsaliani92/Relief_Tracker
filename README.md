@@ -1,15 +1,27 @@
 # Relief_Tracker
-This repository is for the code I have set up to enable the @Relief_Tracker.  It includes
+This Github Repo stores the code and data behind ‘Relief_Tracker’, a Twitter account that Tweets out daily reminders about disasters affecting communities across the world. As of writing this, there are 15 disasters that the account tweets out every day.
 
-5 Data Tables
-<br>*1 Table for disaster information (name of event, date of event, tweet syntax columns, and hashtags) 
-<br>2 Tables for common and uncommon charity tweet information
-<br>2 Tables for tweet syntax’s
-<br>1 table with twitter API information (which I will not be posting)
-<br>1 R script that runs the whole process!*
-<br>Commented out for easy of understanding!
+Hurricane Harvey 
+Hurricane Irma
+Hurricane Maria
+The Thomas Wildfire
+The Sierra Leone Mudslides
+The Mexico City Earthquake
+The Iran/Iraq Earthquake
+The Flint Water Crisis
+The Columbia Floods
+The Philippines Mudslides
+The Kadovar Island Volcano
+The On-going Mongolia Dzud
 
-To make this code run daily, I have setup crontab querries to run during certain parts of the day.
+Code: 
+There is one R code that pulls in, creates, and send out the Tweets for the account, which is “HandCurated_Tweets_Code_Git_Upload.R”. 
+It is run once a day and sends Tweets out in 60 second increments.
 
-Check out the current iteration here! https://twitter.com/Relief_Tracker
-
+Data:
+There are five csv tables which encompass the data to include in the Tweet:
+Metadata_Chart (CSV): this table includes the high level data about each disaster (Date of disaster, is it on-going, what hashtag should be used)
+Started_Type (CSV): this table gives the correct preface when referencing the disaster start date.  If it’s an ongoing disaster, this allows the tweet to say that the disaster “Started” on it’s origin data, where as if it were a singular event, it will use the phrase “Occurred”.
+Awareness_ (TXT): This table includes Tweets that are meant to raise awareness for a disaster as it has garnered little attention in the U.S (example: "the Sierra Leone mudslides".
+Act_ (TXT): This table includes Tweets that are meant to mobilize action to support on-going relief efforts (example: "Hurricane Maria")
+Focus_ (TXT): This table includes Tweets that are meant to remind us of existing disasters that have simply fallen from the news cycle (example: "Flint’s Water Crisis)”.
