@@ -25,3 +25,4 @@ There are five csv tables which encompass the data to include in the Tweet:
 - Awareness_ (TXT): This table includes Tweets that are meant to raise awareness for a disaster as it has garnered little attention in the U.S (example: "the Sierra Leone mudslides".
 - Act_ (TXT): This table includes Tweets that are meant to mobilize action to support on-going relief efforts (example: "Hurricane Maria")
 - Focus_ (TXT): This table includes Tweets that are meant to remind us of existing disasters that have simply fallen from the news cycle (example: "Flint’s Water Crisis)”.
+- UPDATE: I've compiled the "Awareness_", "Act_" and "Focus_" txt files into one aggregate file "Final_" for conveniance sakes.
