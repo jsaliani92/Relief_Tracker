@@ -16,7 +16,7 @@
 
 #Code below
 
-setwd("/Users/juliansaliani/Desktop/Misc.(Random)/Tracker_Code/")
+setwd("___INSERT DIRECTORY DOC HERE_____")
 
 
 #Load Libraries
@@ -141,8 +141,6 @@ for(i in 1:dim(Metadata)[1]){
 
 #Combine into one vector with each Tweet to send out.
 TweetThread <- vector(length=dim(TweetMatrix)[1])
-TweetPerDay <- TweetMatrix[,3]
-
 for(i in 1:length(TweetThread)){
   TweetThread[i] <- paste0(TweetMatrix[i,1],TweetMatrix[i,2])
 }
